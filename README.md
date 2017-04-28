@@ -1,6 +1,13 @@
 # TripleO Utils
 
-Some TripleO dev tools, you shouldn't use this unless you are called Dougal.
+~~Some TripleO dev tools, you shouldn't use this unless you are called Dougal.~~
+Like most TripleO tools, this one has some defaults, but is configurable!
+Export the following environment variables to customize the deployment experience.
+
+    TRIPLEO_UTIL_REPO
+    GIT_EMAIL
+    GIT_USER_NAME
+    GERRIT_USER_NAME
 
 ## Host
 
@@ -24,7 +31,7 @@ su - heap;
 As the heap user.
 
 ```
-git clone https://github.com/d0ugal/tripleo-util.git;
+git clone https://github.com/rbrady/tripleo-util.git;
 ~/tripleo-util/host/install.sh;
 ```
 
@@ -44,6 +51,6 @@ Then to connect to the undercloud...
 ## undercloud
 
 ```
-git clone https://github.com/d0ugal/tripleo-util.git;
+git clone https://github.com/rbrady/tripleo-util.git;
 ~/tripleo-util/undercloud/install.sh;
 ```
