@@ -28,7 +28,15 @@ sudo chmod 0440 /etc/sudoers.d/heap;
 su - heap;
 ```
 
-As the heap user.
+As the heap user from this point on.
+
+Add your ssh key...
+
+```
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@localhost
+```
+
+Now, install the undercloud bits...
 
 ```
 git clone https://github.com/rbrady/tripleo-util.git;

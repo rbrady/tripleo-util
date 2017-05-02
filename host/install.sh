@@ -17,6 +17,7 @@ if [ ! -f quickstart.sh ]; then
     chmod +x quickstart.sh;
 fi
 
+# https://giphy.com/gifs/easy-a-1021gSEcGt9ja0
 ~/quickstart.sh --install-deps;
 ~/quickstart.sh \
     --bootstrap \
